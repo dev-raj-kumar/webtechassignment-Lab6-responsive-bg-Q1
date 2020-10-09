@@ -8,10 +8,19 @@ body,html {
   background-size: cover;
 }
 #more{
-  opacity: 0.6;
+  background: rgba(0, 0, 0, 0.3);
   margin: 5% 20%;
-  te
+
 }
 #greet{
-  opacity: 0.6;
+  background: rgba(0, 0, 0, 0.4);
+  font-weight: 900;
+  font-style: italic;
+}
+#greet :hover{
+  background-color: #eaeaea;
+}
+.jtbtn{
+   background-color : #a7ff83;
+   color : black;
 }
